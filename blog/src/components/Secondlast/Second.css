@@ -1,0 +1,44 @@
+.imd {
+    background-color: grey;
+}
+
+.md {
+    text-decoration: dotted;
+    font-size: medium;
+    font-style: oblique;
+}
+ 
+
+.image-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .image-container img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-left: 2rem;
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
